@@ -225,7 +225,12 @@ body {
     border: 0 none;
   }
 
+/* @media screen and (max-width: 780px) {
 
+  .auth-image {
+
+  }
+} */
 
   /* screen size 640px */
 @media screen and (max-width: 640px) {
@@ -264,10 +269,10 @@ body {
   .work:nth-child(even){
     margin: auto;
   }
-}
 
-/* index 640px */
-.auth-image {
-  float: none;
-  width: 100%;
+  /* index 640px */
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
 }
